@@ -1,0 +1,19 @@
+# Eagle project files
+eagle.epf
+fabrication.lbr
+*.b#*
+*.s#*
+*.l#*
+*-exportpro.dru
+*-exportpro2.cfg
+DRILEGEND.CFG
+*.pro
+
+# Docs and firmware
+build
+.obsidian
+.pio
+.vscode
+sdkconfig.*
+c_cpp_properties.json
+.fake
