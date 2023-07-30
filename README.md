@@ -42,8 +42,6 @@
 
 ### Drehzahl LED-Leiste
 
-
-
 ## Modulare Hex Armaturen
 
 - Ein zentrales Master Instrument, wo die Daten eingespeist werden (Drahtlos/Verdrahtet)
@@ -51,6 +49,6 @@
 - Instrumentenadresse mit DIP-Schaltern einstellbar (SC18IS602B)
   - ID bestimmt angezeigte Daten
   - ID wird in SPI Chipselect konvertiert
+ 
 
 ## Retro Bargraphs
-
