@@ -1,0 +1,6 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+D1,SOP65P640X110-16N,1,"SC18IS602BIPW,112",
+H1,ER_TFT128-2,1,~,
+J1,PinHeader_1x05_P2.54mm_Horizontal,1,Conn_01x05_Pin,
+J2,PinSocket_1x05_P2.54mm_Horizontal,1,Conn_01x05_Socket,
+"R1, R2, R3",0805,3,R,
