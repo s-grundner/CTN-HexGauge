@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f977916b-d8e1-4637-b52e-552a11683d96)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "ESP32 (Wroom)\nSD Card\nCAN Interface\nHigh Speed SPI for TFT\n"
+    (at 72.39 50.165 0) (size 33.655 12.065)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid da5eb9e2-c6c5-4e88-9574-c1ae20fcc09f)
+  )
+)
