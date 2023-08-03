@@ -1,4 +1,4 @@
-21743821858328074
+21750585552297041
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -9743,6 +9743,13 @@ DSUB-62-HD_Male_Vertical_P2.41x1.98mm_MountingHoles
 0
 64
 63
+Connector_FFC-FPC
+FPC_12
+
+
+0
+12
+12
 Connector_FFC-FPC
 Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal
 Hirose FH12, FFC/FPC connector, FH12-6S-0.5SH, 6 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
@@ -52934,6 +52941,13 @@ ERM19264 Graphics Display 192x64
 20
 20
 Display
+ER_TFT128-1
+
+
+0
+12
+12
+Display
 ER_TFT128-2
 
 
@@ -83152,6 +83166,20 @@ rotary encoder
 0
 7
 6
+SamacSys_Parts
+503398-1892
+503398-1892
+Connector
+0
+14
+14
+SamacSys_Parts
+ESP32WROOM32EH4
+ESP32-WROOM-32E-H4-1
+Integrated Circuit
+0
+47
+47
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)

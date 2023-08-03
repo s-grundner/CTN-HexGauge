@@ -1,0 +1,33 @@
+!SESSION 2023-08-02 21:39:31.844 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Smon\source\CarTelemetryNetwork\source\STM_HexGaugeV3
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-02 21:39:36.067
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-02 21:39:36.069
+!MESSAGE Log4j2 initialized with config file C:\Users\Smon\source\CarTelemetryNetwork\source\STM_HexGaugeV3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-02 21:39:43.583
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-08-03 01:11:28.479 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-03 01:11:29.354
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-03 01:11:32.643
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-03 01:11:32.644
+!MESSAGE Log4j2 initialized with config file C:\Users\Smon\source\CarTelemetryNetwork\source\STM_HexGaugeV3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-03 01:11:39.607
+!MESSAGE Started RMI Server, listening on port 41337

@@ -2170,8 +2170,8 @@
     (property "Datasheet" "~" (at 152.4 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 731acc54-946c-4a0d-a77f-dafda96a9cda))
-    (pin "2" (uuid cf1dde59-f775-45bf-ab55-1d441df0cc25))
+    (pin "1" (uuid 485c3088-8ff6-4a97-80f1-d71580c60672))
+    (pin "2" (uuid dc6cf1f2-0f43-4754-a14d-a6aee3a9024f))
     (instances
       (project "CTN"
         (path "/1543a122-e7c5-418a-8448-fc189429e92a"
@@ -2476,7 +2476,7 @@
     (property "Datasheet" "" (at 152.4 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfd0b3a5-3444-4e5f-a758-1a1458793f60))
+    (pin "1" (uuid 245d21b8-8456-45da-a82c-2b45d6c4a723))
     (instances
       (project "CTN"
         (path "/1543a122-e7c5-418a-8448-fc189429e92a"
@@ -2608,7 +2608,7 @@
     (property "Datasheet" "" (at 152.4 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 490946d1-3fcc-43a6-a10f-563ae71a28a9))
+    (pin "1" (uuid 45189903-551b-44e1-b78f-da31a07c9319))
     (instances
       (project "CTN"
         (path "/1543a122-e7c5-418a-8448-fc189429e92a"
