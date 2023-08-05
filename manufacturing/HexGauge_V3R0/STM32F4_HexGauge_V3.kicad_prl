@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "User1",
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -63,7 +63,7 @@
       36,
       40
     ],
-    "visible_layers": "ffcfc33_fffffff9",
+    "visible_layers": "ffcfcb3_fffffff9",
     "zone_display_mode": 0
   },
   "meta": {
