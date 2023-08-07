@@ -57,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CAN2_SLOPECTRL_Pin GPIO_PIN_3
+#define CAN2_SLOPECTRL_GPIO_Port GPIOC
 #define BTN_INT_Pin GPIO_PIN_1
 #define BTN_INT_GPIO_Port GPIOA
 #define BTN_INT_EXTI_IRQn EXTI1_IRQn
