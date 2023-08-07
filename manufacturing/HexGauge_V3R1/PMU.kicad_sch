@@ -1062,7 +1062,7 @@
   (symbol (lib_id "power:GND") (at 115.57 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 108a29a2-2511-4837-a56d-01d7f1eb6f8d)
-    (property "Reference" "#PWR019" (at 115.57 107.95 0)
+    (property "Reference" "#PWR023" (at 115.57 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 105.41 0)
@@ -1078,7 +1078,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
   (symbol (lib_id "power:+12V") (at 38.1 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1529d36a-a677-417f-9786-e9c5b2f3c002)
-    (property "Reference" "#PWR013" (at 38.1 69.85 0)
+    (property "Reference" "#PWR018" (at 38.1 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 38.1 62.23 0)
@@ -1103,7 +1103,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1169,7 +1169,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 53.34 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b89f0a5-92a4-4675-ba42-df937832ae2d)
-    (property "Reference" "D1" (at 52.07 69.85 90)
+    (property "Reference" "D2" (at 52.07 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "B5819W" (at 52.07 72.39 90)
@@ -1189,7 +1189,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1227,7 +1227,7 @@
   (symbol (lib_id "Device:C") (at 173.99 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f526358-2b53-467c-ac26-bb78168f4f75)
-    (property "Reference" "C13" (at 176.53 82.55 0)
+    (property "Reference" "C15" (at 176.53 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 176.53 85.09 0)
@@ -1247,7 +1247,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1256,7 +1256,7 @@
   (symbol (lib_id "power:GND") (at 78.74 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67f73a9a-1f2f-43b3-8d13-fbc987f2e950)
-    (property "Reference" "#PWR017" (at 78.74 107.95 0)
+    (property "Reference" "#PWR022" (at 78.74 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 105.41 0)
@@ -1272,7 +1272,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1310,7 +1310,7 @@
   (symbol (lib_id "power:+3V3") (at 173.99 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fef0f8a-cb24-41c0-93bb-3f43da21eeac)
-    (property "Reference" "#PWR015" (at 173.99 81.28 0)
+    (property "Reference" "#PWR020" (at 173.99 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 173.99 73.66 0)
@@ -1326,7 +1326,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1335,7 +1335,7 @@
   (symbol (lib_id "Device:R") (at 87.63 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80849f9f-36b4-40cb-85f7-a2489a6b9990)
-    (property "Reference" "R7" (at 88.9 85.09 0)
+    (property "Reference" "R10" (at 88.9 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 88.9 87.63 0)
@@ -1355,7 +1355,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "R7") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1364,7 +1364,7 @@
   (symbol (lib_id "Device:R") (at 157.48 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83e7a77b-cc23-4d60-ae1f-182e4348ba40)
-    (property "Reference" "R5" (at 158.75 82.55 0)
+    (property "Reference" "R8" (at 158.75 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 158.75 85.09 0)
@@ -1384,7 +1384,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1393,7 +1393,7 @@
   (symbol (lib_id "Device:R") (at 157.48 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b370695-9749-46aa-8108-740c3c1c949c)
-    (property "Reference" "R8" (at 158.75 92.71 0)
+    (property "Reference" "R11" (at 158.75 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 158.75 95.25 0)
@@ -1413,7 +1413,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1422,7 +1422,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 87.63 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 989c44d9-5da7-4db6-b7db-f375b4d9a2d1)
-    (property "Reference" "#FLG03" (at 87.63 78.105 0)
+    (property "Reference" "#FLG02" (at 87.63 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 87.63 76.2 0)
@@ -1438,7 +1438,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1447,7 +1447,7 @@
   (symbol (lib_id "power:VBUS") (at 53.34 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6187085-35f8-46bc-ab81-d8473ae7729b)
-    (property "Reference" "#PWR014" (at 53.34 69.85 0)
+    (property "Reference" "#PWR019" (at 53.34 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 53.34 62.23 0)
@@ -1463,7 +1463,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1472,7 +1472,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 38.1 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab97923b-1467-4f15-b123-7e8c99da169c)
-    (property "Reference" "#FLG02" (at 38.1 84.455 0)
+    (property "Reference" "#FLG03" (at 38.1 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 38.1 86.36 0)
@@ -1488,7 +1488,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -1527,7 +1527,7 @@
   (symbol (lib_id "power:GND") (at 45.72 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdd81e52-1383-4ab1-bd9e-f6822e7f3736)
-    (property "Reference" "#PWR016" (at 45.72 106.68 0)
+    (property "Reference" "#PWR021" (at 45.72 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 104.14 0)
@@ -1543,7 +1543,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1552,7 +1552,7 @@
   (symbol (lib_id "Device:C") (at 78.74 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4613af5-f510-4c80-934d-e74f33f52673)
-    (property "Reference" "C14" (at 81.28 85.09 0)
+    (property "Reference" "C16" (at 81.28 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 81.28 87.63 0)
@@ -1572,7 +1572,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "C14") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1581,7 +1581,7 @@
   (symbol (lib_id "Device:R") (at 163.83 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc95a198-49c8-41c8-a626-65482a5b042f)
-    (property "Reference" "R6" (at 165.1 82.55 0)
+    (property "Reference" "R9" (at 165.1 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "560k" (at 165.1 85.09 0)
@@ -1601,7 +1601,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1610,7 +1610,7 @@
   (symbol (lib_id "Device:C") (at 142.24 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2dc4a32-d94c-473d-bd40-72794cfd10e2)
-    (property "Reference" "C11" (at 142.24 73.66 90)
+    (property "Reference" "C14" (at 142.24 73.66 90)
       (effects (font (size 1.27 1.27)) (justify top))
     )
     (property "Value" "22n" (at 142.24 76.2 90)
@@ -1630,7 +1630,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1639,7 +1639,7 @@
   (symbol (lib_id "power:GND") (at 157.48 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5905c76-d703-49fc-a4a3-2ba03f2c1627)
-    (property "Reference" "#PWR020" (at 157.48 107.95 0)
+    (property "Reference" "#PWR024" (at 157.48 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 105.41 0)
@@ -1655,7 +1655,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1664,7 +1664,7 @@
   (symbol (lib_id "power:GND") (at 173.99 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff64e9a0-cd2e-4763-81b1-03a652749381)
-    (property "Reference" "#PWR021" (at 173.99 107.95 0)
+    (property "Reference" "#PWR025" (at 173.99 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 105.41 0)
@@ -1680,7 +1680,7 @@
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
