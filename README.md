@@ -26,6 +26,7 @@ Changes:
 - Slope Control for CAN Bus
 - 10pin Header for Debugging
 - Larger Silkscreen
+- JLC Tooling Holes
 
 ## Revision 2
 
