@@ -8,12 +8,34 @@ Customizable Automotive Gauge with CAN Bus and Integrated Inertial Measurement U
 |-|-|
 |![](/documentation/images/REV0_PCB_1.png)|![](/documentation/images/REV0_PCB_2.png)|
 
+Features:
+- SD Card with SPI Mode
+- IMU on I2C3 SMBA
+- TFT on SPI1
+
 ## Revision 1
 
 | Components Side | Display Side |
 |-|-|
 |![](/documentation/images/REV1_PCB_1.png)|![](/documentation/images/REV1_PCB_2.png)|
 
+Changes:
+- Fullspeed SDIO Interface
+- IMU on I2C1 SMBA
+- Optimized Buck Converter
+- Slope Control for CAN Bus
+- 10pin Header for Debugging
+- Larger Silkscreen
+
 ## Revision 2
 
 > In Development
+
+Changes:
+- Simple Switcher Buckconverter Update
+- Optimized Traces for
+  - IMU
+  - SD Card
+  - SWD Interface
+  - TFT Display
+- Reduced Overall costs
