@@ -1,0 +1,6 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C27","100n","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-1.500000,19.000000,180.000000,bottom
+"C28","100n","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-0.600000,-8.550000,0.000000,bottom
+"C29","2u2","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-7.150000,-11.650000,-90.000000,bottom
+"H1","ER_TFT128-1","ER_TFT128-1",0.000000,0.000000,180.000000,bottom
+"R17","10R","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",-4.500000,-8.550000,0.000000,bottom

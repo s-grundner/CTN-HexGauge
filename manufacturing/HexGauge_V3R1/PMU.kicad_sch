@@ -987,6 +987,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ae71de2-bc58-43a0-8a45-b64b75b2670f)
   )
+  (text "replace with TI simple switcher" (at 101.6 72.39 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ae2220d2-a249-447e-8117-37a494ca114b)
+  )
   (text "Vout = 3V3\nR1 = 31k25\nR2 = 10k\nL1 = 3u3\nCin = 47u\nCout = 47u\n"
     (at 137.16 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1074,7 +1078,7 @@
     (property "Datasheet" "" (at 115.57 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c502f089-ffa0-47a1-8d97-c55421f33c00))
+    (pin "1" (uuid 65a10c47-a498-4acb-819c-27eb25cf4d3e))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1153,7 +1157,7 @@
     (property "Datasheet" "~" (at 163.83 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9c4dbb2-bc31-4aba-bbe6-41d6f6ae06d3))
+    (pin "1" (uuid 3853c25b-dcfd-443f-b90f-3e95c8e87d7b))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/bfb15bba-4fad-4019-9bd7-2bdf984da311"
@@ -1242,8 +1246,8 @@
     (property "LCSC Part #" "C90142" (at 173.99 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ecfba747-9f31-48b6-ab9c-51e8c84fe0d9))
-    (pin "2" (uuid 65b4f0f4-c78b-43cf-8fa1-b5578f81a10a))
+    (pin "1" (uuid 346b5b48-e826-461f-a446-778ec0288d15))
+    (pin "2" (uuid 27c04be9-06be-4874-9268-2ba2b499ed43))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1287,7 +1291,7 @@
     (property "Value" "4u7" (at 152.4 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 152.4 78.74 0)
+    (property "Footprint" "Inductor_SMD:L_Wuerth_WE-TPC-3816" (at 152.4 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Sunltech-Tech-SLH0704S3R3MTT_C216194.pdf" (at 152.4 78.74 0)
@@ -1296,8 +1300,8 @@
     (property "LCSC Part #" "C182156" (at 152.4 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d82515d-1342-4ca7-9591-0b08a0103cf8))
-    (pin "2" (uuid 6f88ecaf-6902-4216-9038-a5a9f186cacb))
+    (pin "1" (uuid 7d8272dd-e175-43e4-88a3-ddabf51378a8))
+    (pin "2" (uuid 06cc8922-3e16-4cfb-8304-ddc1fc13da7b))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1322,7 +1326,7 @@
     (property "Datasheet" "" (at 173.99 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3db9ffae-f0e5-4d0c-9d3c-6dd934eedd1b))
+    (pin "1" (uuid 95b4e413-789c-494f-ae9d-9cd5ff5e311c))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1379,8 +1383,8 @@
     (property "LCSC Part #" "C25779" (at 157.48 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 109226ac-9c6a-4cb9-b48b-eba0de58f7f6))
-    (pin "2" (uuid 334fc876-2a62-492d-9a7e-85440322c95b))
+    (pin "1" (uuid 4c3e5c51-1fe8-4263-a4f9-f0e1d5774e4e))
+    (pin "2" (uuid 26492b93-3f81-4dc7-be9d-fa4ce1bb2462))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1408,8 +1412,8 @@
     (property "LCSC Part #" "C25744" (at 157.48 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c5d6da4-deee-4f13-bad9-c7e5d1fdf474))
-    (pin "2" (uuid a10396b2-6ef4-4434-a772-8aeddee86043))
+    (pin "1" (uuid b7c33b9e-d106-4dc9-8417-5181eb7c0706))
+    (pin "2" (uuid dc49cc6c-39d4-41c8-975c-6199eec4ac0f))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1596,8 +1600,8 @@
     (property "LCSC Part #" "C23203" (at 163.83 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8fe2ee79-6099-4768-8328-60425c5540ef))
-    (pin "2" (uuid a416bf4b-54ab-4a2c-aac5-023e2a06cd65))
+    (pin "1" (uuid c47d47bc-0362-4f4b-b7e7-fb27167ec8f7))
+    (pin "2" (uuid 38ff2f23-d91d-45bc-9a96-58e8bebd1b65))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1625,8 +1629,8 @@
     (property "LCSC Part #" "C1532" (at 142.24 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 251ea6ef-5af2-47c3-9d4c-26230a269bc7))
-    (pin "2" (uuid 490835b4-8d7d-451b-96cb-aa75673bc749))
+    (pin "1" (uuid 56616339-cb74-43f4-92d1-9dd724a51d96))
+    (pin "2" (uuid 8c04b6cb-e311-47f8-a12c-b359b523d4a9))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1651,7 +1655,7 @@
     (property "Datasheet" "" (at 157.48 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72f8f2df-989a-4f2f-8f84-791730051183))
+    (pin "1" (uuid a714b07d-7f4d-4a28-96d1-14f1bca1a32a))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
@@ -1676,7 +1680,7 @@
     (property "Datasheet" "" (at 173.99 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 954a039f-a478-4a43-ab55-6f0bf2a082b4))
+    (pin "1" (uuid 0a9379ab-d5fc-4704-8ff9-a03e57f0b619))
     (instances
       (project "STM32F4_HexGauge_V3"
         (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5/166e52e6-ad52-4e82-85bb-6068cde833c9"
