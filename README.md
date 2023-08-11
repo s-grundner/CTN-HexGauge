@@ -30,7 +30,9 @@ Changes:
 
 ## Revision 2
 
-> In Development
+| Components Side | Display Side |
+|-|-|
+|![](/documentation/images/REV2_PCB_1.png)|![](/documentation/images/REV2_PCB_2.png)|
 
 Changes:
 - Simple Switcher Buckconverter Update
