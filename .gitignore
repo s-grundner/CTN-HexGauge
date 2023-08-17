@@ -18,8 +18,11 @@ sdkconfig.*
 c_cpp_properties.json
 .fake
 *.zip
+
+# Eclipse
 .metadata
+.settings
 
 # Kicad
-
 *.kicad_prl
+fp-info-cache
