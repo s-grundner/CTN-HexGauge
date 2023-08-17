@@ -17,7 +17,6 @@ build
 sdkconfig.*
 c_cpp_properties.json
 .fake
-*.zip
 
 # Eclipse
 .metadata
@@ -26,3 +25,4 @@ c_cpp_properties.json
 # Kicad
 *.kicad_prl
 fp-info-cache
+manufacturing/HexGauge_V3R2/STM32F4_HexGauge_V3-backups
