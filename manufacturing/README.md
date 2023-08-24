@@ -41,3 +41,17 @@ Changes:
   - SWD Interface
   - TFT Display
 - Reduced Overall costs
+
+# Revision 3
+
+> In Development
+
+Changes:
+
+- rm Bootmode Switch (SWD only flashing, space constriants)
+- MCU: STM32F412RGT6 (chip shortage)
+- SD Card
+  - Supply Fitering (Additional Pi Filter)
+  - ESD Protection (ESD9B3.3ST5G)
+  - Dataline Pullups
+- change Stack-Up -> Sig/Pwr, GND, GND, Sig/Pwr
