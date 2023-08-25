@@ -2,7 +2,7 @@
 
 Customizable Automotive Gauge with CAN Bus and Integrated Inertial Measurement Unit
 
-## Repository Structures
+## Repository Structure
 
 - [Documentation](/documentation/)
 - [Manufacturing](/manufacturing/)
