@@ -55,3 +55,4 @@ Changes:
   - ESD Protection (ESD9B3.3ST5G)
   - Dataline Pullups
 - change Stack-Up -> Sig/Pwr, GND, GND, Sig/Pwr
+- Fiducals/Tooling Holes larger silkscreen expansion
