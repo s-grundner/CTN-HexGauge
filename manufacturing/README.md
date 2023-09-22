@@ -56,3 +56,4 @@ Changes:
   - Dataline Pullups
 - change Stack-Up -> Sig/Pwr, GND, GND, Sig/Pwr
 - Fiducals/Tooling Holes larger silkscreen expansion
+- Buck converter Thinner Feedback Trace
