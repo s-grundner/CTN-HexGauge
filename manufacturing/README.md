@@ -44,7 +44,9 @@ Changes:
 
 # Revision 3
 
-> In Development
+| Components Side | Display Side |
+|-|-|
+|![](/documentation/images/REV3_PCB_1.png)|![](/documentation/images/REV3_PCB_2.png)|
 
 Changes:
 
