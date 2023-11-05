@@ -48,12 +48,6 @@ Changes:
 
 Changes:
 
-- rm Bootmode Switch (SWD only flashing, space constriants)
-- MCU: STM32F412RGT6 (chip shortage)
-- SD Card
-  - Supply Fitering (Additional Pi Filter)
-  - ESD Protection (ESD9B3.3ST5G)
-  - Dataline Pullups
-- change Stack-Up -> Sig/Pwr, GND, GND, Sig/Pwr
-- Fiducals/Tooling Holes larger silkscreen expansion
-- Buck converter Thinner Feedback Trace
+- [x] SD Card Dataline Pullups
+- [x] change Stack-Up -> Sig/Pwr, GND, GND, Sig/Pwr
+- [x] Buck converter Thinner Feedback Trace
