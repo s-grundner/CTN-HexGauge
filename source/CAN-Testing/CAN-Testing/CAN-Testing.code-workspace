@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "CAN-Testing",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"inttypes.h": "c",
+			"encoder.h": "c",
+			"stdio.h": "c",
+			"gitcon.h": "c",
+			"config.h": "c"
+		}
+	}
+}

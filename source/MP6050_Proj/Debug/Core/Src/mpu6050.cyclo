@@ -1,0 +1,11 @@
+../Core/Src/mpu6050.c:48:19:MPU6050_Init	4
+../Core/Src/mpu6050.c:76:6:MPU6050_Exit	1
+../Core/Src/mpu6050.c:85:19:MPU6050_SetAccelRange	2
+../Core/Src/mpu6050.c:98:19:MPU6050_SetGyroRange	2
+../Core/Src/mpu6050.c:112:17:MPU6050_ReadAcceleration	4
+../Core/Src/mpu6050.c:147:9:MPU6050_DataReady	1
+../Core/Src/mpu6050.c:151:6:MPU6050_SetIntrFlag	1
+../Core/Src/mpu6050.c:155:6:MPU6050_ResetIntrFlag	1
+../Core/Src/mpu6050.c:159:19:MPU6050_ReadReg	1
+../Core/Src/mpu6050.c:163:19:MPU6050_ReadRegBurst	1
+../Core/Src/mpu6050.c:167:19:MPU6050_WriteReg	1

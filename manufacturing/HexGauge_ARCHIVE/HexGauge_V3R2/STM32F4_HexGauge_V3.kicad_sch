@@ -1,0 +1,172 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1671c3d2-535f-4cd5-a65b-02e5c9ad18e5)
+
+  (paper "A4")
+
+  (title_block
+    (title "STM32 Hex Gauge")
+    (date "2023-08-02")
+    (rev "R1")
+    (company "s-grundner")
+    (comment 1 "Multipurpose Automotive Gauge")
+  )
+
+  (lib_symbols
+  )
+
+
+  (arc (start 215.9 82.55) (mid 222.25 79.9198) (end 228.6 82.55)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 560b8a22-f214-407f-a7df-59e8eb794c81)
+  )
+  (arc (start 182.88 82.55) (mid 186.69 80.9719) (end 190.5 82.55)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 92a2e9e5-45cb-486d-a023-48e3447cecb2)
+  )
+  (arc (start 203.2 95.25) (mid 195.6703 105.8084) (end 182.88 107.95)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid af9b53e7-61e3-45b6-b24a-614e2e26ba27)
+  )
+  (arc (start 182.88 55.88) (mid 195.9333 58.6566) (end 203.2 69.85)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid b60134a8-f526-4e40-9b3b-311cb636c3de)
+  )
+
+  (text_box "IMU"
+    (at 152.4 49.53 0) (size 30.48 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54)))
+    (uuid 1f050845-ec21-41e7-823b-8d15557625f8)
+  )
+  (text_box "1.28'' TFT\nDisplay\n"
+    (at 228.6 74.93 0) (size 25.4 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54)))
+    (uuid 2a128344-2e02-4081-a10d-75f88b7d78e4)
+  )
+  (text_box "CAN Interface"
+    (at 152.4 74.93 0) (size 30.48 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54)))
+    (uuid 372d0070-7a2a-46b1-ac65-c1715917a686)
+  )
+  (text_box "12V -> 3V3\nStep Down"
+    (at 152.4 101.6 0) (size 30.48 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54)))
+    (uuid c1597c0f-c276-41b7-a4d3-d5652e6e6250)
+  )
+  (text_box "STM32"
+    (at 190.5 69.85 0) (size 25.4 25.4)
+    (stroke (width 0) (type default))
+    (fill (type color) (color 0 0 0 0))
+    (effects (font (size 2.54 2.54)))
+    (uuid e5ffa00b-caff-43b8-8ec3-9dc44b6bbc3b)
+  )
+
+  (text "Interface: USB, CAN (Molex KK), \nPower: 12V (Molex KK with CAN)\nSWD-Pad Connector\nTFT Display: 250x250 Round\nInterface: 4-Wire SPI"
+    (at 26.67 125.73 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2884df11-b23f-4034-a397-de5f90c2c5c4)
+  )
+  (text "STM32 Hex Gauge Version 3" (at 25.4 25.4 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold italic) (justify left bottom))
+    (uuid 3ec4fe7d-a2f0-4389-be18-0429687b55ce)
+  )
+  (text "12V in from Car Battery\n500mA Fused\nAlternatively USB 5V powered\nOnboard Buckconverter to 3V3"
+    (at 26.67 73.66 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a035987d-0e8f-4732-a5e5-d13c911690fd)
+  )
+  (text "Microcontroller: STM32F405RGT6\nPackage: LQFP64\nInterfaces: USB FS, CAN, 2xSPI, I2C, SW-Debug\n25MHz Crystal\n"
+    (at 26.67 48.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a8d17ea7-f86f-45ec-b0f9-a87001849163)
+  )
+  (text "Inertia Measurement Unit (IMU)\nInterface: I2C\nAddress: 0x68/0b1101000\n\nCAN Interface to Access Automotive Data"
+    (at 26.67 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c198c8d2-1aff-4614-be68-95b1c86037ce)
+  )
+
+  (sheet (at 25.4 63.5) (size 63.5 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 166e52e6-ad52-4e82-85bb-6068cde833c9)
+    (property "Sheetname" "PMU" (at 25.4 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMU.kicad_sch" (at 25.4 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "STM32F4_HexGauge_V3"
+        (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 88.9) (size 63.5 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2ad56a2f-dfcc-4b7b-a763-7659f3fc7ffe)
+    (property "Sheetname" "Sensors" (at 25.4 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IMU.kicad_sch" (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "STM32F4_HexGauge_V3"
+        (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 114.3) (size 63.5 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6132b015-8d81-4c9d-ab7f-afd3c7f45a00)
+    (property "Sheetname" "Connectors" (at 25.4 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors.kicad_sch" (at 25.4 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "STM32F4_HexGauge_V3"
+        (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 38.1) (size 63.5 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bfb15bba-4fad-4019-9bd7-2bdf984da311)
+    (property "Sheetname" "MCU" (at 25.4 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 25.4 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "STM32F4_HexGauge_V3"
+        (path "/1671c3d2-535f-4cd5-a65b-02e5c9ad18e5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
